@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core', ## Mina: Added after running docker-compose run --rm app sh -c "python manage.py startapp core"
+    'user',
 ]
 
 MIDDLEWARE = [
