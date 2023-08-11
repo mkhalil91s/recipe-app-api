@@ -14,5 +14,6 @@ app_name = 'user'  ## It will be used for the reverse mapping in the test_user_a
 
 urlpatterns = [
     path('create/' , views.CreateUserView.as_view(), name = 'create'),
+    path('token/' , views.CreateTokenView.as_view(), name = 'token'),
 ]
 
