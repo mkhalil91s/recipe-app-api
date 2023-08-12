@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'drf_spectacular',
     'core', ## Mina: Added after running docker-compose run --rm app sh -c "python manage.py startapp core"
     'user',
+    'recipe',
 ]
 
 MIDDLEWARE = [
